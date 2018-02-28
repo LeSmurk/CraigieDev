@@ -1,9 +1,10 @@
 
 
-## About Me
+# About Me
 
+I am a student of Computer Games Technology at Abertay University.
 
-## Projects
+# Projects
 
 #Vox
 ```markdown
