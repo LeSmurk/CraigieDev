@@ -2,7 +2,8 @@
 
 # About Me
 
-I am a student of Computer Games Technology at Abertay University.
+Student of Computer Games Technology at Abertay University.
+Confident in C++ and C# programming.
 
 # Projects
 
