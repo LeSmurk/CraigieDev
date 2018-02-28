@@ -1,16 +1,13 @@
 
 
-### Projects
+## About Me
+
+
+## Projects
 
 #Vox
-
-
 ```markdown
-
-A project
-
-booga
-
+Current project I'm working on
 ```
 
 ### Links
