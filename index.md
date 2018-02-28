@@ -1,17 +1,20 @@
 
 
-# Projects          # Links
+### Projects
 
-**Vox**             [Link](http://dropr.com/mcraigie)
+#Vox
+
 
 ```markdown
 
-# A project
+A project
 
 booga
 
 ```
 
+### Links
+[Link](http://dropr.com/mcraigie)
 
 
 ## Welcome to GitHub Pages
