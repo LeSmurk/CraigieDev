@@ -7,6 +7,7 @@ comments: false
 ---
     
 ## <center>Mark Craigie</center>
+feature: /assets/img/Ma Face.png
 
 ## Skills
 * Efficient in C++ and C#
