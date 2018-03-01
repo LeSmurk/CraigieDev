@@ -1,2 +1,9 @@
 remote_theme: TaylanTatli / Moon
 title: Welcome to CraigieDev.co.uk!
+  url: /
+
+- title: Projects
+  url: /projects/
+
+- title: About Me
+  url: /aboutme/
