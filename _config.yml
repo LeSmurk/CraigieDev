@@ -1,6 +1,6 @@
 # Site
-title:              CraigieDev
-bio:                'Minimal, one column jekyll theme.'
+title:              Welcome To Craigie Development!
+bio:                'Mark Craigie's Website for Games Development'
 description:        "Moon is a minimal, one column jekyll theme for your blog."
 reading_time:       true
 words_per_minute:   200
@@ -38,7 +38,7 @@ disqus_shortname:   taylantatli
   #ad-slot:
 #bing-verify:
 #email:
-twitter:            username
+twitter:            LeSmurk
 facebook:           username
 github-url:         username
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
