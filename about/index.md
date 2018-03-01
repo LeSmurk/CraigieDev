@@ -8,7 +8,7 @@ comments: false
     
 ## <center>Mark Craigie</center>
 <figure>
-	   <a href="craigiedev.co.uk/assets/img/Ma Face.JPG"><img src="craigiedev.co.uk/assets/img/Ma Face.JPG"></a>	
+	   <a href="http://craigiedev.co.uk/assets/img/Ma Face.JPG"><img src="http://craigiedev.co.uk/assets/img/Ma Face.JPG"></a>	
 </figure>
 
 ## Skills
