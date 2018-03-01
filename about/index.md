@@ -8,7 +8,7 @@ comments: false
     
 ## <center>Mark Craigie</center>
 <figure>
-	   <a href="/images/image-filename-1-large.jpg"><img src="/images/image-filename-1.jpg"></a>	
+	   <a href="http://placehold.it/1200x600.JPG"><img src="http://placehold.it/600x300.jpg"></a>	
 </figure>
 
 ## Skills
