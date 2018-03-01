@@ -16,5 +16,5 @@ comments: false
 <center>Computer Games Technology student at Abertay University</center>
 
 ## <center>Skills</center>
-<center>* Efficient in C++ and C#</center>
-<center>* Experience with Unity and Unreal Engines</center>
+<center> Efficient in C++ and C#</center>
+<center> Experience with Unity and Unreal Engines</center>
