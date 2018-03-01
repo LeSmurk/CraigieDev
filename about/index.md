@@ -9,7 +9,7 @@ comments: false
 ## <center>Mark Craigie</center>
 
 <figure>
-	   <img src="/assets/jpg/logo.png">	
+	   <img src="http://craigiedev.co.uk/assets/jpg/logo.png">	
 </figure>
 
 ## Skills
