@@ -3,6 +3,7 @@ layout: post
 title: "Voxracers"
 date: 2012-05-22
 excerpt: "a test"
+project: true
 tags: [sample post, readability, test]
 comments: true
 ---
