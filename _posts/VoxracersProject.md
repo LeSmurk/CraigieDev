@@ -3,6 +3,8 @@ layout: post
 title:  "Voxracing"
 excerpt: "Started from the 2018 Globla Game Jam"
 project: true
+tag:
+- jekyll 
 ---
 
 ## Description
