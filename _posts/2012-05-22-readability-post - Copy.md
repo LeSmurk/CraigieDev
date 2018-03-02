@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "Testing Readability with a Bunch of Text"
-date: 2012-05-22
-excerpt: "A ton of text to test readability."
+title: "Shadow Walker"
+excerpt: "Solo 48 hour game jam game"
 project: true
 tags: [sample post, readability, test]
 comments: true
