@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "About Me"
+title: "Abou"
 excerpt: "Information about me"
 layouts_gallery:
   - url: /assets/images/mm-layout-splash.png
