@@ -5,11 +5,9 @@ excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
 toc: true
 ---
 
-Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies --- styling is purposely minimalistic to be enhanced and customized by you :smile:.
+I am a 3rd year at Abertay University, studying 'Computer Games Technology'.
 
-{% include gallery id="layouts_gallery" caption="Examples of included layouts `splash`, `single`, and `archive`." %}
+After high-school, I moved from Edinburgh to Dundee to begin my studies at Abertay university, where I have now become efficient in C++ and C# coding. Due to my love for video games, I have been developing games both as part of university coursework and outside, in my spare time either within a group or just as smaller solo projects. Most of my talent is within programming, specifically with coding game mechanics, but I have found great value working as part of a team and always contribute to design processes, with my greater understanding of how video games are made.
 
-[Install the Theme]({{ "/docs/quick-start-guide/" | relative_url }}){: .btn .btn--success .btn--large}
+
 ---
-
-Minimal Mistakes is designed, developed, and maintained by Michael Rose. Just another boring, tattooed, designer from Buffalo New York.
