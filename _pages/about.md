@@ -1,6 +1,6 @@
 ---
-permalink: /about/
-title: "About"
+permalink: /aboutme/
+title: "About Me"
 excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
 layouts_gallery:
   - url: /assets/images/mm-layout-splash.png
@@ -12,7 +12,6 @@ layouts_gallery:
   - url: /assets/images/mm-layout-archive.png
     image_path: /assets/images/mm-layout-archive.png
     alt: "archive layout example"
-last_modified_at: 2018-03-20T16:00:39-04:00
 toc: true
 ---
 
