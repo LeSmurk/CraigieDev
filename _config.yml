@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-UK"
-title                    : "Site Title"
+title                    : "CraigieDev"
 title_separator          : "-"
 name                     : "Mark Craigie"
 description              : "Welcome to my games development website."
