@@ -20,9 +20,9 @@ title                    : "Site Title"
 title_separator          : "-"
 name                     : "Mark Craigie"
 description              : "Welcome to my games development website."
-url                      : http://www.craigiedev.co.uk/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "http://www.craigiedev.co.uk" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : LeSmurk/CraigieDev # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "LeSmurk/CraigieDev" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -75,7 +75,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "LeSmurk"
 facebook:
   username               :
   app_id                 :
@@ -97,10 +97,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  name             : "Mark Craigie"
+  avatar           : "assets/maface.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Computer Games Technology Student."
+  location         : "Scotland"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -110,19 +110,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "LeSmurk"
   gitlab           :
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "mcraigie" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          :
+  twitter          : "LeSmurk"
   vine             :
   weibo            :
   xing             :
