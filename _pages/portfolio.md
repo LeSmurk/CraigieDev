@@ -9,7 +9,7 @@ header:
   # cta_label: "Download"
   # cta_url: "https://github.com/mmistakes/minimal-mistakes/"
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-  excerpt: "My portfolio of Work."
+excerpt: "Portfolio."
 intro: 
   - excerpt: 'Here are some of the bigger scale projects that I am currently developing.'
   
