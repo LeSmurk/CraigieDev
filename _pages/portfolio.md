@@ -18,7 +18,7 @@ feature_row1:
     alt: "placeholder image 2"
     title: "Voxracers"
     excerpt: 'Currently my biggest project creating a voxel-based racing game.'
-    url: "/pages/voxracers/"
+    url: "/pages/voxracers"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row2:
