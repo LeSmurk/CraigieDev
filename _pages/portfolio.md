@@ -22,7 +22,7 @@ feature_row1:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row2:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+  - image_path: /assets/UniWork/temp.jpg
     alt: "placeholder image 2"
     title: "Professional Project"
     excerpt: 'A group project for university working with a client.'
@@ -50,7 +50,7 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
     
-  - image_path: /assets/UniWork/LemmingsGBA.JPG.jpg
+  - image_path: /assets/UniWork/LemmingsGBA.JPG
     title: "Lemmings"
     excerpt: "A lemmings demo on GBA."
     url: "/pages/lemmings"
