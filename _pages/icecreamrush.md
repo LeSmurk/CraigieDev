@@ -1,15 +1,18 @@
 ---
-title: "Sample Page"
+title: "Ice Cream Rush"
 permalink: /pages/icecreamrush
-date: 2016-02-24T03:02:20+00:00
 ---
 
-This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:
+*Ice Cream Rush was a game created for the PSVita as part of a game architectures module during my 2nd year at university.*
 
-> Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi'a coladas. (And gettin' caught in the rain.)
+Using Box2D and a basic PSVita framework, I created this fast serving ice-cream game with C++, to make use of both the Vita's joysticks and touch screen controls.
 
-...or something like this:
+![Ice cream splash screen]({{ "/assets/UniWork/IceCreamRushSplash.JPG" | relative_url }})
 
-> The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.
+The game has multiple features such as different game states, difficulty toggle, random generated orders, score and time tracking as well as music/sound effects integrated.
 
-You should probably delete this page and create new pages for your content. Have fun!
+![Example Gameplay]({{ "/assets/UniWork/IceCreamRushExample.JPG" | relative_url }})
+
+2.5D assets and game play involving object-orientated programming to manipulate multiple items in the scene and make full use of the physics that can be created using Box2D.
+
+![UML Image]({{ "/assets/UniWork/IceCreamRushUML.JPG" | relative_url }})
