@@ -2,7 +2,6 @@
 permalink: /aboutme/
 title: "About Me"
 excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
-toc: true
 ---
 
 I am a 3rd year at Abertay University, studying 'Computer Games Technology'.
