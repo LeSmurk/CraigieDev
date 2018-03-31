@@ -7,6 +7,6 @@ permalink: /pages/profproj
 
 As the project is unfinished, and is for a client, for now here are just some pretty pictures.
 
-![prof img 1]({{ "/assets/UniWork/temp.JPG" | relative_url }})
+![prof img 1]({{ "/assets/UniWork/temp.jpg" | relative_url }})
 
-![prof img 2]({{ "/assets/UniWork/temp1.JPG" | relative_url }})
+![prof img 2]({{ "/assets/UniWork/temp1.png" | relative_url }})
