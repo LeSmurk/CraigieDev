@@ -1,7 +1,6 @@
 ---
 title: "Voxracers"
 permalink: /pages/voxracers
-toc: true
 ---
 
 *A voxel racing game created at the 2018 global game jam, with 2 other members.*
