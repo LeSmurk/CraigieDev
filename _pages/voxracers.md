@@ -9,7 +9,8 @@ toc: true
 ![vox]({{ "/assets/Voxracers/voxSplash.jpg" | relative_url }})
 
 This project is currently still in development, and will be properly released sometime in the future.
-For more information about the project as a whole, check out our website on [Voxracers.net]({{"https://voxracers.net/"}}){: .btn .btn--success .btn--large}
+
+For more information about the project as a whole, check out our website on [Voxracers.net]({{"https://voxracers.net/"}}){: .btn .btn--success .btn--medium}
 
 ![vox 1]({{ "/assets/Voxracers/voxFirstPerson.png" | relative_url }})
 ![vox 2]({{ "/assets/Voxracers/endlessRunnerFire.gif" | relative_url }})
