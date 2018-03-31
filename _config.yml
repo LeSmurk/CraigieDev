@@ -102,15 +102,15 @@ author:
   bio              : "Computer Games Technology Student."
   location         : "Scotland"
   email            :
-  uri              : "https://www.craigiedev.co.uk/"
-  home             : "https://www.craigiedev.co.uk/" # null (default), "absolute or relative url to link to author home"
+  uri              :
+  home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : "LeSmurk"
+  github           :
   gitlab           :
   google_plus      :
   keybase          :
@@ -204,7 +204,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
+#  - jekyll-feed
   - jemoji
 
 # mimic GitHub Pages with --safe
