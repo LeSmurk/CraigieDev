@@ -7,5 +7,6 @@ permalink: /pages/shadowwalker
  
  The aim of this project was to familiarise myself with Unity and create something small in the process. In this first person puzzler, the player has the ability to take control of their shadow, in order to get through the levels.
  
- **Insert video here**
+https://www.youtube.com/watch?v=_i8PixwjM0g
+
 
