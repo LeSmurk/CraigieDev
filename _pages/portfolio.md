@@ -50,7 +50,7 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
     
-  - image_path: /assets/UniWork/LemmingsGBA.JPG
+  - image_path: /assets/UniWork/LemmingsGBASized.JPG
     title: "Lemmings"
     excerpt: "A lemmings demo on GBA."
     url: "/pages/lemmings"
