@@ -34,7 +34,7 @@ intro1:
   - excerpt: 'Here are some of my smaller solo projects that I have completed.'
   
 feature_row:
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
+  - image_path: assets/UniWork/shadowWalkerImage.JPG
     alt: "placeholder image 1"
     title: "Shadow Walker"
     excerpt: "48 hour Unity shadow controlling puzzle game."
