@@ -8,7 +8,7 @@ two_row:
 
   - image_path: /assets/UniWork/DiamondSquareRegularHills2.PNG
     alt: "placeholder image 1"
-  
+    
    - image_path: /assets/UniWork/DiamondSquareSand.PNG
     alt: "placeholder image 1"
 ---
