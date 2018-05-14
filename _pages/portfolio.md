@@ -13,7 +13,7 @@ excerpt: "My Work."
 intro: 
   - excerpt: 'Here are some of the bigger scale projects that I am currently developing.'
   
-feature_row1:
+feature_row:
   - image_path: /assets/Voxracers/voxSplash.jpg
     alt: "placeholder image 2"
     title: "Voxracers"
@@ -21,7 +21,7 @@ feature_row1:
     url: "/pages/voxracers"
     btn_label: "Read More"
     btn_class: "btn--primary"
-feature_row2:
+feature_row1:
   - image_path: /assets/UniWork/temp.jpg
     alt: "placeholder image 2"
     title: "Professional Project"
@@ -33,7 +33,7 @@ feature_row2:
 intro1: 
   - excerpt: 'Here are some of my smaller solo projects that I have completed.'
   
-feature_row:
+feature_row2:
   - image_path: assets/UniWork/shadowWalkerImage.JPG
     alt: "placeholder image 1"
     title: "Shadow Walker"
@@ -56,14 +56,27 @@ feature_row:
     url: "/pages/lemmings"
     btn_label: "Read More"
     btn_class: "btn--primary"
+    
+ feature_row3:
+  - image_path: assets/UniWork/CellularSmoother.PNG
+    alt: "placeholder image 1"
+    title: "Procedural Module"
+    excerpt: "Directx11 Procedural Generation"
+    url: "/pages/proceduralmodule"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+    
+  - image_path:
 ---
 
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row id="feature_row1" type="center" %}
+{% include feature_row id="feature_row" type="center" %}
 
-{% include feature_row id="feature_row2" type="center" %}
+{% include feature_row id="feature_row1" type="center" %}
 
 {% include feature_row id="intro1" type="center" %}
 
-{% include feature_row %}
+{% include feature_row2 %}
+
+{% include feature_row3 type="left" %}
