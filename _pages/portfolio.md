@@ -33,30 +33,6 @@ feature_row2:
 intro1: 
   - excerpt: 'Here are some of my smaller solo projects that I have completed.'
   
-feature_row:
-  - image_path: assets/UniWork/shadowWalkerImage.JPG
-    alt: "placeholder image 1"
-    title: "Shadow Walker"
-    excerpt: "48 hour Unity shadow controlling puzzle game."
-    url: "/pages/shadowwalker"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-    
-  - image_path: /assets/UniWork/IceCreamRushSplash.JPG
-    alt: "placeholder image 2"
-    title: "Ice Cream Rush"
-    excerpt: "An OpenGL PSVita ice cream stacking game."
-    url: "/pages/icecreamrush"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-    
-  - image_path: /assets/UniWork/LemmingsGBASized.jpg
-    title: "Lemmings"
-    excerpt: "A lemmings demo on GBA."
-    url: "/pages/lemmings"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-    
 feature_row3:
   - image_path: /assets/UniWork/CellularSmoother.PNG
     alt: "placeholder image 1"
@@ -66,6 +42,32 @@ feature_row3:
     btn_label: "Read More"
     btn_class: "btn--primary"
 
+feature_row4:
+  - image_path: /assets/UniWork/IceCreamRushSplash.JPG
+    alt: "placeholder image 2"
+    title: "Ice Cream Rush"
+    excerpt: "An OpenGL PSVita ice cream stacking game."
+    url: "/pages/icecreamrush"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
+feature_row5:
+  - image_path: assets/UniWork/shadowWalkerImage.JPG
+    alt: "placeholder image 1"
+    title: "Shadow Walker"
+    excerpt: "48 hour Unity shadow controlling puzzle game."
+    url: "/pages/shadowwalker"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+ 
+feature_row6:
+  - image_path: /assets/UniWork/LemmingsGBASized.jpg
+    title: "Lemmings"
+    excerpt: "A lemmings demo on GBA."
+    url: "/pages/lemmings"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+    
 ---
 
 {% include feature_row id="intro" type="center" %}
@@ -74,8 +76,14 @@ feature_row3:
 
 {% include feature_row id="feature_row2" type="center" %}
 
+
 {% include feature_row id="intro1" type="center" %}
 
-{% include feature_row %}
 
 {% include feature_row id="feature_row3" type="left" %}
+
+{% include feature_row id="feature_row4" type="right" %}
+
+{% include feature_row id="feature_row5" type="left" %}
+
+{% include feature_row id="feature_row6" type="right" %}
