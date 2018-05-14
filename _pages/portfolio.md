@@ -57,7 +57,7 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
     
- feature_row3:
+feature_row3:
   - image_path: /assets/UniWork/CellularSmoother.PNG
     alt: "placeholder image 1"
     title: "Procedural Module"
