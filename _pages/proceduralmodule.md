@@ -11,6 +11,7 @@ two_row:
     
    - image_path: /assets/UniWork/DiamondSquareSand.PNG
     alt: "placeholder image 2"
+    
 ---
 *3rd year procedural generation module within Directx11*
 
@@ -21,7 +22,7 @@ The same Perlin noise was also used in conjunction with a compound sine wave to 
 
 I then developed a more complex type of terrian, using the Diamond-Square algorithm, which created the outputs seen below.
 
-{% include feature_row  id="two_row" %}
+{% include feature_row  id="two_row" type="center" %}
 
 Finally I used cellular automata to produce the final terrain type, which was my favourite method to implement.
 
