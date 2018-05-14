@@ -22,7 +22,9 @@ The same Perlin noise was also used in conjunction with a compound sine wave to 
 
 I then developed a more complex type of terrian, using the Diamond-Square algorithm, which created the outputs seen below.
 
-{% include gallery id="two_row" type="full" %}
+![DiaSqu]({{ "/assets/UniWork/DiamondSquareImproved.PNG" | relative_url }})
+![DiaSqu]({{ "/assets/UniWork/DiamondSquareRegularHills2.PNG" | relative_url }})
+![DiaSqu]({{ "/assets/UniWork/DiamondSquareSand.PNG" | relative_url }})
 
 Finally I used cellular automata to produce the final terrain type, which was my favourite method to implement.
 
