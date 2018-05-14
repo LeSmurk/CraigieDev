@@ -5,12 +5,12 @@ permalink: /pages/proceduralmodule
 two_row:
   - image_path: /assets/UniWork/DiamondSquareImproved.PNG
     alt: "placeholder image 0"
-    title: "Diamond Square"
-    
+
   - image_path: /assets/UniWork/DiamondSquareRegularHills2.PNG
     alt: "placeholder image 1"
-    title: "Diamond Square"
   
+   - image_path: /assets/UniWork/DiamondSquareSand.PNG
+    alt: "placeholder image 1"
 ---
 *3rd year procedural generation module within Directx11*
 
