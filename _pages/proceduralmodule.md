@@ -10,7 +10,7 @@ two_row:
     alt: "placeholder image 1"
     
    - image_path: /assets/UniWork/DiamondSquareSand.PNG
-    alt: "placeholder image 1"
+    alt: "placeholder image 2"
 ---
 *3rd year procedural generation module within Directx11*
 
