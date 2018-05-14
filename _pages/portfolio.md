@@ -65,8 +65,7 @@ feature_row2:
     url: "/pages/proceduralmodule"
     btn_label: "Read More"
     btn_class: "btn--primary"
-    
-  - image_path:
+
 ---
 
 {% include feature_row id="intro" type="center" %}
