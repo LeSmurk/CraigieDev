@@ -22,7 +22,7 @@ The same Perlin noise was also used in conjunction with a compound sine wave to 
 
 I then developed a more complex type of terrian, using the Diamond-Square algorithm, which created the outputs seen below.
 
-{% include feature_row  id="two_row" type="center" %}
+{% include gallery id="two_row" %}
 
 Finally I used cellular automata to produce the final terrain type, which was my favourite method to implement.
 
