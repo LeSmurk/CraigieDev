@@ -1,5 +1,5 @@
 ---
-title: "Ice Cream Rush"
+title: "Augmented Reality on the PSVita"
 permalink: /pages/ar-vita
 ---
 
