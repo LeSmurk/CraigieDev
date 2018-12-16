@@ -3,16 +3,10 @@ title: "Ice Cream Rush"
 permalink: /pages/honours
 ---
 
-*Ice Cream Rush was a game created for the PSVita as part of a game architectures module during my 2nd year at university.*
+*My 4th year Honours project researching simulating soft-body dynamics in real-time.*
 
-Using Box2D and a basic PSVita framework, I created this fast serving ice-cream game with C++, to make use of both the Vita's joysticks and touch screen controls.
+Using Spring/Mass principles, I am attemping to simulate soft-body physics within a games context and therefore placing a focus on the performance of the simulation within real-time. While I am using the Unity3D engine, I have only used the collision and transform components that come with the engine to create the current Spring/Mass system as I am researching how Entity Component Systems can be used to improve the performance of this soft body system.
 
 ![Ice cream splash screen]({{ "/assets/UniWork/IceCreamRushSplash.JPG" | relative_url }})
 
-The game has multiple features such as different game states, difficulty toggle, random generated orders, score and time tracking as well as music/sound effects integrated.
 
-![Example Gameplay]({{ "/assets/UniWork/IceCreamRushExample.JPG" | relative_url }})
-
-2.5D assets and game play involving object-orientated programming to manipulate multiple items in the scene and make full use of the physics that can be created using Box2D.
-
-![UML Image]({{ "/assets/UniWork/IceCreamRushUML.JPG" | relative_url }})
