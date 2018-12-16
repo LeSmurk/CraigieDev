@@ -1,5 +1,5 @@
 ---
-title: "Ice Cream Rush"
+title: "Soft Body Dynamics - Honours"
 permalink: /pages/honours
 ---
 
