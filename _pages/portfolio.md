@@ -44,7 +44,7 @@ feature_rowProf:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_rowAR:
-  - image_path: /assets/UniWork/PlumbAR.PNG
+  - image_path: /assets/UniWork/PlumbAR.png
     alt: "placeholder image 1"
     title: "Augmented Reality PSVita"
     excerpt: "[Solo] Augmented Reality game for the PSVita"
