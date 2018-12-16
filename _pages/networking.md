@@ -1,6 +1,6 @@
 ---
 title: "Ice Cream Rush"
-permalink: /pages/icecreamrush
+permalink: /pages/networking
 ---
 
 *Ice Cream Rush was a game created for the PSVita as part of a game architectures module during my 2nd year at university.*
