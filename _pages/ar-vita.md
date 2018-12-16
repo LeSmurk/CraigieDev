@@ -3,16 +3,10 @@ title: "Ice Cream Rush"
 permalink: /pages/ar-vita
 ---
 
-*Ice Cream Rush was a game created for the PSVita as part of a game architectures module during my 2nd year at university.*
+*PlumbAR was a game created for the PSVita as part of an Applied Games Technology module during my 4th year at university.*
 
-Using Box2D and a basic PSVita framework, I created this fast serving ice-cream game with C++, to make use of both the Vita's joysticks and touch screen controls.
+The principle of the game is to use the markers to move pipes within the augmented reality application so that a path from start to finish is created. The Sony marker detection and a games education framework were used to get the markers' matrices and render the pipe objects relative to each marker, detecting collisions between each pipe. The game also features a level creation tool, allowing the user to move the start and end pipe pieces as well as change the types of pipe (junction, bend, etc) and then save that level for future play.
 
-![Ice cream splash screen]({{ "/assets/UniWork/IceCreamRushSplash.JPG" | relative_url }})
+The project was made in C++, using the Sony Playstation Vita development kits.
 
-The game has multiple features such as different game states, difficulty toggle, random generated orders, score and time tracking as well as music/sound effects integrated.
-
-![Example Gameplay]({{ "/assets/UniWork/IceCreamRushExample.JPG" | relative_url }})
-
-2.5D assets and game play involving object-orientated programming to manipulate multiple items in the scene and make full use of the physics that can be created using Box2D.
-
-![UML Image]({{ "/assets/UniWork/IceCreamRushUML.JPG" | relative_url }})
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cJRQNncv-Kw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
