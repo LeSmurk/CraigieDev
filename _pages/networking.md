@@ -1,18 +1,12 @@
 ---
-title: "Ice Cream Rush"
+title: "Networking TCP vs UDP"
 permalink: /pages/networking
 ---
 
-*Ice Cream Rush was a game created for the PSVita as part of a game architectures module during my 2nd year at university.*
+*This project was created as part of a networking module during my 2nd year at university.*
 
-Using Box2D and a basic PSVita framework, I created this fast serving ice-cream game with C++, to make use of both the Vita's joysticks and touch screen controls.
+Using SFML, I created this application to test the differences between TCP and UDP networking, both in their performance as well as how the two are programmed.The game consists of tow players, both constrained to one side of the screen (top or bottom) and their goal is to throw a hook out to catch the other player and drag them into the centre of the screen, into a pit.
 
-![Ice cream splash screen]({{ "/assets/UniWork/IceCreamRushSplash.JPG" | relative_url }})
+The coursework brief was to simply make a fully networked game, however, I wanted to test the differences between the two networking protocols and how they two compare, particularly how the choice of the different protocols changes the way that the communications between the two clients/server is programmed.
 
-The game has multiple features such as different game states, difficulty toggle, random generated orders, score and time tracking as well as music/sound effects integrated.
-
-![Example Gameplay]({{ "/assets/UniWork/IceCreamRushExample.JPG" | relative_url }})
-
-2.5D assets and game play involving object-orientated programming to manipulate multiple items in the scene and make full use of the physics that can be created using Box2D.
-
-![UML Image]({{ "/assets/UniWork/IceCreamRushUML.JPG" | relative_url }})
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QgOdqAJf5z4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
