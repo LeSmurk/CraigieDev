@@ -14,7 +14,7 @@ intro:
   - excerpt: 'Here are some of my more recent projects that are currently being developed.'
   
 feature_rowHonours:
-  - image_path: /assets/honoursSplash.jpg
+  - image_path: /assets/UniWork/HonoursSplash.jpg
     alt: "placeholder image 2"
     title: "Soft Body Dynamics in real-time"
     excerpt: '[Solo] My honours project researching soft-body dynamics.'
@@ -59,21 +59,20 @@ feature_rowProc:
     url: "/pages/proceduralmodule"
     btn_label: "Read More"
     btn_class: "btn--primary"
+feature_rowRush:
+  - image_path: /assets/UniWork/IceCreamRushSplash.JPG
+    alt: "placeholder image 2"
+    title: "Ice Cream Rush"
+    excerpt: "[Solo] A PSVita ice cream stacking game."
+    url: "/pages/icecreamrush"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 feature_rowNet:
   - image_path: /assets/UniWork/NetGame.PNG
     alt: "placeholder image 1"
     title: "Networking UDP vs TCP"
     excerpt: "[Solo] A Networked game testing UDP and TCP systems"
     url: "/pages/networking"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-
-feature_rowRush:
-  - image_path: /assets/UniWork/IceCreamRushSplash.JPG
-    alt: "placeholder image 2"
-    title: "Ice Cream Rush"
-    excerpt: "[Solo] An OpenGL PSVita ice cream stacking game."
-    url: "/pages/icecreamrush"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
@@ -111,9 +110,9 @@ feature_rowGBA:
 
 {% include feature_row id="feature_rowProc" type="left" %}
 
-{% include feature_row id="feature_rowNet" type="right" %}
+{% include feature_row id="feature_rowRush" type="right" %}
 
-{% include feature_row id="feature_rowRush" type="left" %}
+{% include feature_row id="feature_rowNet" type="left" %}
 
 {% include feature_row id="feature_rowShadow" type="right" %}
 
