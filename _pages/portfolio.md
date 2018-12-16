@@ -68,7 +68,7 @@ feature_rowRush:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_rowNet:
-  - image_path: /assets/UniWork/NetGame.PNG
+  - image_path: /assets/UniWork/NetGame.jpg
     alt: "placeholder image 1"
     title: "Networking UDP vs TCP"
     excerpt: "[Solo] A Networked game testing UDP and TCP systems"
