@@ -11,59 +11,84 @@ header:
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "My Work."
 intro: 
-  - excerpt: 'Here are some of the bigger scale projects that I am currently developing.'
+  - excerpt: 'Here are some of my more recent projects that are currently being developed.'
   
-feature_row1:
+feature_rowHonours:
+  - image_path: /assets/UniWork/HonoursSplash.jpg
+    alt: "placeholder image 2"
+    title: "Soft Body Dynamics in real-time"
+    excerpt: '[Solo] My honours project researching soft-body dynamics.'
+    url: "/pages/honours"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+feature_rowVox:
   - image_path: /assets/Voxracers/voxSplash.jpg
     alt: "placeholder image 2"
     title: "Voxracers"
-    excerpt: 'Currently my biggest project creating a voxel-based racing game.'
+    excerpt: '[Team] Currently my biggest project creating a voxel-based racing game.'
     url: "/pages/voxracers"
     btn_label: "Read More"
     btn_class: "btn--primary"
-feature_row2:
+
+
+    
+intro1: 
+  - excerpt: 'Here are some of the completed projects that I have been involved in.'
+  
+feature_rowProf:
   - image_path: /assets/UniWork/temp.jpg
     alt: "placeholder image 2"
     title: "Professional Project"
-    excerpt: 'A group project for university working with a client.'
+    excerpt: '[Team] A group project for university working with a client.'
     url: "/pages/profproj"
     btn_label: "Read More"
     btn_class: "btn--primary"
-    
-intro1: 
-  - excerpt: 'Here are some of my smaller solo projects that I have completed.'
-  
-feature_row3:
+feature_rowAR:
+  - image_path: /assets/UniWork/PlumbAR.PNG
+    alt: "placeholder image 1"
+    title: "Augmented Reality PSVita"
+    excerpt: "[Solo] Augmented Reality game for the PSVita"
+    url: "/pages/ar-vita"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+feature_rowProc:
   - image_path: /assets/UniWork/CellularSmoother.PNG
     alt: "placeholder image 1"
     title: "Procedural Module"
-    excerpt: "Directx11 Procedural Generation"
+    excerpt: "[Solo] Directx11 Procedural Generation"
     url: "/pages/proceduralmodule"
     btn_label: "Read More"
     btn_class: "btn--primary"
-
-feature_row4:
+feature_rowRush:
   - image_path: /assets/UniWork/IceCreamRushSplash.JPG
     alt: "placeholder image 2"
     title: "Ice Cream Rush"
-    excerpt: "An OpenGL PSVita ice cream stacking game."
+    excerpt: "[Solo] A PSVita ice cream stacking game."
     url: "/pages/icecreamrush"
     btn_label: "Read More"
     btn_class: "btn--primary"
+feature_rowNet:
+  - image_path: /assets/UniWork/NetGame.PNG
+    alt: "placeholder image 1"
+    title: "Networking UDP vs TCP"
+    excerpt: "[Solo] A Networked game testing UDP and TCP systems"
+    url: "/pages/networking"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 
-feature_row5:
+feature_rowShadow:
   - image_path: assets/UniWork/shadowWalkerImage.JPG
     alt: "placeholder image 1"
     title: "Shadow Walker"
-    excerpt: "48 hour Unity shadow controlling puzzle game."
+    excerpt: "[Solo] 48 hour Unity shadow controlling puzzle game."
     url: "/pages/shadowwalker"
     btn_label: "Read More"
     btn_class: "btn--primary"
  
-feature_row6:
+feature_rowGBA:
   - image_path: /assets/UniWork/LemmingsGBASized.jpg
     title: "Lemmings"
-    excerpt: "A lemmings demo on GBA."
+    excerpt: "[Solo] A lemmings demo on GBA."
     url: "/pages/lemmings"
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -72,18 +97,23 @@ feature_row6:
 
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row id="feature_row1" type="center" %}
+{% include feature_row id="feature_rowHonours" type="center" %}
 
-{% include feature_row id="feature_row2" type="center" %}
+{% include feature_row id="feature_rowVox" type="center" %}
 
 
 {% include feature_row id="intro1" type="center" %}
 
+{% include feature_row id="feature_rowProf" type="left" %}
 
-{% include feature_row id="feature_row3" type="left" %}
+{% include feature_row id="feature_rowAR" type="right" %}
 
-{% include feature_row id="feature_row4" type="right" %}
+{% include feature_row id="feature_rowProc" type="left" %}
 
-{% include feature_row id="feature_row5" type="left" %}
+{% include feature_row id="feature_rowRush" type="right" %}
 
-{% include feature_row id="feature_row6" type="right" %}
+{% include feature_row id="feature_rowNet" type="left" %}
+
+{% include feature_row id="feature_rowShadow" type="right" %}
+
+{% include feature_row id="feature_rowGBA" type="left" %}
