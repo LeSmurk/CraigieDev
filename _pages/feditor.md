@@ -1,12 +1,10 @@
 ---
-title: "Soft Body Dynamics - Honours"
-permalink: /pages/honours
+title: "Feditor - Solo Steam Release"
+permalink: /pages/feditor
 ---
 
-*My 4th year Honours project researching simulating soft-body dynamics in real-time.*
+*A game releasing on Steam at the start of February, made during my 2018/19 winter holiday*
 
-Using Spring/Mass principles, I am attemping to simulate soft-body physics within a games context and therefore placing a focus on the performance of the simulation within real-time. While I am using the Unity3D engine, I have only used the collision and transform components that come with the engine to create the current Spring/Mass system as I am researching how Entity Component Systems can be used to improve the performance of this soft body system.
+A game made within a month entirely solo as a passion project to be able to say that I released my own game. Made with Unity as a 2.5D PC mouse-clicker game inspired by Twitch and youtube creator "Fedmyster" in a month during my winter holidays of 2018-2018. The main aim of this project was to make something I could manage within a short time entirely by myself and that could be released as a portfolio piece. 
 
-The video below demonstrates the feasibility of the Sping/Mass system, using a nearest neighbours approach to determine which masses are connected.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/e-H2lSZaFJc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Feditor will be available on Steam on the 3rd of February 2019.
