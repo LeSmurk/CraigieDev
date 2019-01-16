@@ -17,7 +17,7 @@ feature_rowFeditor:
   - image_path: /assets/Feditor/MainCapsuleImage.png
     alt: "placeholder image 1"
     title: "Feditor"
-    excerpt: '[Solo] Released Steam Game.'
+    excerpt: '[Solo] My first ever released Steam Game.'
     url: "/pages/feditor"
     btn_label: "Read More"
     btn_class: "btn--primary"
