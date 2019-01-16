@@ -12,10 +12,18 @@ header:
 excerpt: "My Work."
 intro: 
   - excerpt: 'Here are some of my more recent projects that are currently being developed.'
-  
+
+feature_rowFeditor:
+  - image_path: /assets/Feditor/HeaderCapsuleImage.png
+    alt: "placeholder image 1"
+    title: "Feditor"
+    excerpt: '[Solo] Released Steam Game.'
+    url: "/pages/feditor"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 feature_rowHonours:
   - image_path: /assets/UniWork/HonoursSplash.jpg
-    alt: "placeholder image 2"
+    alt: "placeholder image 1"
     title: "Soft Body Dynamics in real-time"
     excerpt: '[Solo] My honours project researching soft-body dynamics.'
     url: "/pages/honours"
@@ -23,7 +31,7 @@ feature_rowHonours:
     btn_class: "btn--primary"
 feature_rowVox:
   - image_path: /assets/Voxracers/voxSplash.jpg
-    alt: "placeholder image 2"
+    alt: "placeholder image 1"
     title: "Voxracers"
     excerpt: '[Team] Currently my biggest project creating a voxel-based racing game.'
     url: "/pages/voxracers"
@@ -35,20 +43,20 @@ feature_rowVox:
 intro1: 
   - excerpt: 'Here are some of the completed projects that I have been involved in.'
   
-feature_rowProf:
-  - image_path: /assets/UniWork/temp.jpg
-    alt: "placeholder image 2"
-    title: "Professional Project"
-    excerpt: '[Team] A group project for university working with a client.'
-    url: "/pages/profproj"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
 feature_rowAR:
   - image_path: /assets/UniWork/PlumbAR.png
     alt: "placeholder image 1"
     title: "Augmented Reality PSVita"
     excerpt: "[Solo] Augmented Reality game for the PSVita"
     url: "/pages/ar-vita"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+feature_rowProf:
+  - image_path: /assets/UniWork/temp.jpg
+    alt: "placeholder image 1"
+    title: "Professional Project"
+    excerpt: '[Team] A group project for university working with a client.'
+    url: "/pages/profproj"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_rowProc:
@@ -97,6 +105,8 @@ feature_rowGBA:
 
 {% include feature_row id="intro" type="center" %}
 
+{% include feature_row id="feature_rowFeditor" type="center" %}
+
 {% include feature_row id="feature_rowHonours" type="center" %}
 
 {% include feature_row id="feature_rowVox" type="center" %}
@@ -104,9 +114,9 @@ feature_rowGBA:
 
 {% include feature_row id="intro1" type="center" %}
 
-{% include feature_row id="feature_rowProf" type="left" %}
-
 {% include feature_row id="feature_rowAR" type="right" %}
+
+{% include feature_row id="feature_rowProf" type="left" %}
 
 {% include feature_row id="feature_rowProc" type="left" %}
 
