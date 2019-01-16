@@ -14,7 +14,7 @@ intro:
   - excerpt: 'Here are some of my more recent projects that are currently being developed.'
 
 feature_rowFeditor:
-  - image_path: /assets/Feditor/HeaderCapsuleImage.png
+  - image_path: /assets/Feditor/MainCapsuleImage.png
     alt: "placeholder image 1"
     title: "Feditor"
     excerpt: '[Solo] Released Steam Game.'
