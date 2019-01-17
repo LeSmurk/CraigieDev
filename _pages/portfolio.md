@@ -114,9 +114,9 @@ feature_rowGBA:
 
 {% include feature_row id="intro1" type="center" %}
 
-{% include feature_row id="feature_rowAR" type="right" %}
+{% include feature_row id="feature_rowAR" type="left" %}
 
-{% include feature_row id="feature_rowProf" type="left" %}
+{% include feature_row id="feature_rowProf" type="right" %}
 
 {% include feature_row id="feature_rowProc" type="left" %}
 
