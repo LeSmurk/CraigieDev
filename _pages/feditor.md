@@ -9,6 +9,6 @@ A game made within a month entirely solo as a passion project to be able to say 
 
 Feditor will be available on Steam on the 4th of February 2019.
 
-Check out the Steam Page here: https://store.steampowered.com/app/1013360/Feditor/
+Check out the Steam Page here: [Feditor]({{"https://store.steampowered.com/app/1013360/Feditor/"}}){: .btn .btn--success .btn--medium} 
 
 ![feditor 1]({{ "/assets/Feditor/HeaderCapsuleImage.png" | relative_url }})
