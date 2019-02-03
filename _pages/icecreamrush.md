@@ -15,4 +15,4 @@ The game has multiple features such as different game states, difficulty toggle,
 
 2.5D assets and game play involving object-orientated programming to manipulate multiple items in the scene and make full use of the physics that can be created using Box2D.
 
-![UML Image]({{ "/assets/UniWork/IceCreamRushUML.JPG" | relative_url }})
+![UML Image]({{ "/assets/UniWork/Diagrams/IceCreamRushUML.JPG" | relative_url }})
