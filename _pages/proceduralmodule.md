@@ -5,24 +5,32 @@ galleryDS:
   - url: /assets/UniWork/DiamondSquareImproved.PNG
     image_path: /assets/UniWork/DiamondSquareImproved.PNG
     alt: "placeholder image 0"
-  - image_path: /assets/UniWork/DiamondSquareRegularHills2.PNG
+  - url: /assets/UniWork/DiamondSquareRegularHills2.PNG
+    image_path: /assets/UniWork/DiamondSquareRegularHills2.PNG
     alt: "placeholder image 1"    
-  - image_path: /assets/UniWork/DiamondSquareSand.PNG
+  - url: /assets/UniWork/DiamondSquareSand.PNG
+    image_path: /assets/UniWork/DiamondSquareSand.PNG
     alt: "placeholder image 2"
 gallerySnipDS:
-  - image_path: /assets/CodeSnips/DiaSquCodeLoop.PNG
+  - url: /assets/Code Snips/ProcGen/DiaSquCodeLoop.PNG
+    image_path: /assets/Code Snips/ProcGen/DiaSquCodeLoop.PNG
     alt: "placeholder image 0"
-  - image_path: /assets/CodeSnips/DiaStepCode.PNG
+  - url: /assets/Code Snips/ProcGen/DiaStepCode.PNG
+    image_path: /assets/Code Snips/ProcGen/DiaStepCode.PNG
     alt: "placeholder image 1" 
 gallerySnipDS1:
-  - image_path: /assets/CodeSnips/RandomStep.PNG
+  - url: /assets/Code Snips/ProcGen/RandomStep.PNG
+    image_path: /assets/Code Snips/ProcGen/RandomStep.PNG
     alt: "placeholder image 0"
-  - image_path: /assets/CodeSnips/SquStepCode.PNG
+  - url: /assets/Code Snips/ProcGen/SquStepCode.PNG
+    image_path: /assets/Code Snips/ProcGen/SquStepCode.PNG
     alt: "placeholder image 1"  
 gallerySnipCA:
-  - image_path: /assets/CodeSnips/CellularCodeRule1.PNG
+  - url: /assets/Code Snips/ProcGen/CellularCodeRule1.PNG
+    image_path: /assets/Code Snips/ProcGen/CellularCodeRule1.PNG
     alt: "placeholder image 0"
-  - image_path: /assets/CodeSnips/CellularCodeRule2.PNG
+  - url: /assets/Code Snips/ProcGen/CellularCodeRule2.PNG
+    image_path: /assets/Code Snips/ProcGen/CellularCodeRule2.PNG
     alt: "placeholder image 1"
 ---
 *3rd year procedural generation module within Directx11*
