@@ -1,7 +1,7 @@
 ---
 title: "Procedural Module"
 permalink: /pages/proceduralmodule/
-galleryDS:
+gallery:
   - url: /assets/UniWork/DiamondSquareImproved.PNG
     image_path: /assets/UniWork/DiamondSquareImproved.PNG
     alt: "placeholder image 0"
@@ -11,19 +11,13 @@ galleryDS:
   - url: /assets/UniWork/DiamondSquareSand.PNG
     image_path: /assets/UniWork/DiamondSquareSand.PNG
     alt: "placeholder image 2"
-gallerySnipDS:
+gallery1:
   - url: /assets/Code Snips/ProcGen/DiaSquCodeLoop.PNG
     image_path: /assets/Code Snips/ProcGen/DiaSquCodeLoop.PNG
     alt: "placeholder image 0"
   - url: /assets/Code Snips/ProcGen/DiaStepCode.PNG
     image_path: /assets/Code Snips/ProcGen/DiaStepCode.PNG
     alt: "placeholder image 1" 
-  - url: /assets/Code Snips/ProcGen/RandomStep.PNG
-    image_path: /assets/Code Snips/ProcGen/RandomStep.PNG
-    alt: "placeholder image 0"
-  - url: /assets/Code Snips/ProcGen/SquStepCode.PNG
-    image_path: /assets/Code Snips/ProcGen/SquStepCode.PNG
-    alt: "placeholder image 1"  
 gallerySnipDS1:
   - url: /assets/Code Snips/ProcGen/RandomStep.PNG
     image_path: /assets/Code Snips/ProcGen/RandomStep.PNG
@@ -48,11 +42,11 @@ The same Perlin noise was also used in conjunction with a compound sine wave to 
 
 I then developed a more complex type of terrian, using the Diamond-Square algorithm, which created the outputs seen below.
 
-{% include gallery id="galleryDS" %}
+{% include gallery id="gallery" %}
 
 Here are a couple of snippets of the Diamond Square
 
-{% include gallery id="gallerySnipDS" %}
+{% include gallery id="gallery1" %}
 {% include gallery id="gallerySnipDS1" %}
 
 Finally I used cellular automata to produce the final terrain type, which was my favourite method to implement.
