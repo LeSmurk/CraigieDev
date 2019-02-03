@@ -17,7 +17,7 @@ feature_rowFeditor:
     title: "Feditor"
     excerpt: '[Solo] My first ever released Steam Game.'
     url: "/pages/feditor"
-    btn_label: "Read More"
+    btn_label: "Feditor"
     btn_class: "btn--primary"
 feature_rowHonours:
   - image_path: /assets/UniWork/HonoursSplash.jpg
@@ -25,7 +25,7 @@ feature_rowHonours:
     title: "Soft Body Dynamics in real-time"
     excerpt: '[Solo] My honours project researching soft-body dynamics.'
     url: "/pages/honours"
-    btn_label: "Read More"
+    btn_label: "Honours"
     btn_class: "btn--primary"
 feature_rowVox:
   - image_path: /assets/Voxracers/voxSplash.jpg
@@ -33,7 +33,7 @@ feature_rowVox:
     title: "Voxracers"
     excerpt: '[Team] Currently my biggest project creating a voxel-based racing game.'
     url: "/pages/voxracers"
-    btn_label: "Read More"
+    btn_label: "Voxracers"
     btn_class: "btn--primary"
 
 
@@ -46,7 +46,7 @@ feature_rowAR:
     title: "Augmented Reality PSVita"
     excerpt: "[Solo] Augmented Reality game for the PSVita"
     url: "/pages/ar-vita"
-    btn_label: "Read More"
+    btn_label: "PlumbAR"
     btn_class: "btn--primary"
 feature_rowProf:
   - image_path: /assets/UniWork/temp.jpg
@@ -54,7 +54,7 @@ feature_rowProf:
     title: "Professional Project"
     excerpt: '[Team] A group project for university working with a client.'
     url: "/pages/profproj"
-    btn_label: "Read More"
+    btn_label: "Prof Proj"
     btn_class: "btn--primary"
 feature_rowProc:
   - image_path: /assets/UniWork/CellularSmoother.PNG
@@ -62,7 +62,7 @@ feature_rowProc:
     title: "Procedural Module"
     excerpt: "[Solo] Directx11 Procedural Generation"
     url: "/pages/proceduralmodule"
-    btn_label: "Read More"
+    btn_label: "Proc Gen"
     btn_class: "btn--primary"
 feature_rowRush:
   - image_path: /assets/UniWork/IceCreamRushSplash.JPG
@@ -70,7 +70,7 @@ feature_rowRush:
     title: "Ice Cream Rush"
     excerpt: "[Solo] A PSVita ice cream stacking game."
     url: "/pages/icecreamrush"
-    btn_label: "Read More"
+    btn_label: "Ice Cream Rush"
     btn_class: "btn--primary"
 feature_rowNet:
   - image_path: /assets/UniWork/NetGame.jpg
@@ -78,7 +78,7 @@ feature_rowNet:
     title: "Networking UDP vs TCP"
     excerpt: "[Solo] A Networked game testing UDP and TCP systems"
     url: "/pages/networking"
-    btn_label: "Read More"
+    btn_label: "Networking"
     btn_class: "btn--primary"
 
 feature_rowShadow:
@@ -87,7 +87,7 @@ feature_rowShadow:
     title: "Shadow Walker"
     excerpt: "[Solo] 48 hour Unity shadow controlling puzzle game."
     url: "/pages/shadowwalker"
-    btn_label: "Read More"
+    btn_label: "Shadow Walker"
     btn_class: "btn--primary"
  
 feature_rowGBA:
@@ -95,7 +95,7 @@ feature_rowGBA:
     title: "Lemmings"
     excerpt: "[Solo] A lemmings demo on GBA."
     url: "/pages/lemmings"
-    btn_label: "Read More"
+    btn_label: "Lemmings"
     btn_class: "btn--primary"
     
 ---
@@ -120,9 +120,9 @@ feature_rowGBA:
 
 {% include feature_row id="feature_rowAR" type="left" %}
 
-{% include feature_row id="feature_rowProf" type="right" %}
+{% include feature_row id="feature_rowProc" type="right" %}
 
-{% include feature_row id="feature_rowProc" type="left" %}
+{% include feature_row id="feature_rowProf" type="left" %}
 
 {% include feature_row id="feature_rowRush" type="right" %}
 
