@@ -42,7 +42,7 @@ The same Perlin noise was also used in conjunction with a compound sine wave to 
 
 I then developed a more complex type of terrian, using the Diamond-Square algorithm, which created the outputs seen below.
 
-{% include gallery id="gallery" %}
+{% include gallery %}
 
 Here are a couple of snippets of the Diamond Square code
 
