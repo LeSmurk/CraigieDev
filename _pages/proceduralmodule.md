@@ -35,6 +35,8 @@ gallerySnipCA:
 ---
 *3rd year procedural generation module within Directx11*
 
+[Example Scripts]({{"https://github.com/LeSmurk/ExampleCode/tree/master/ProcGen"}}){: .btn .btn--primary .btn--large}
+
 I began by creating a simple Perlin noise terrain, by converting Ken Perlin's original algorithm into C++ and then adding environmental texturing through the use of a pixel shader.
 The same Perlin noise was also used in conjunction with a compound sine wave to create the water that is seen in all the images.
 
