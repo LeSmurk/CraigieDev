@@ -10,3 +10,7 @@ Using Spring/Mass principles, I am attemping to simulate soft-body physics withi
 The video below demonstrates the feasibility of the Sping/Mass system, using a nearest neighbours approach to determine which masses are connected.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e-H2lSZaFJc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Here is a snippet of the base spring system
+
+![Spring Img]({{ "/assets/Code Snips/HonsSpringsSnip.JPG" | relative_url }})
