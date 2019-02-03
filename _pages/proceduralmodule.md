@@ -2,7 +2,8 @@
 title: "Procedural Module"
 permalink: /pages/proceduralmodule/
 galleryDS:
-  - image_path: /assets/UniWork/DiamondSquareImproved.PNG
+  - url: /assets/UniWork/DiamondSquareImproved.PNG
+    image_path: /assets/UniWork/DiamondSquareImproved.PNG
     alt: "placeholder image 0"
   - image_path: /assets/UniWork/DiamondSquareRegularHills2.PNG
     alt: "placeholder image 1"    
