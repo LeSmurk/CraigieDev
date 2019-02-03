@@ -23,8 +23,6 @@ two_rowSnipDS1:
     alt: "placeholder image 0"
   - image_path: /assets/Code Snips/CellularCodeRule2.PNG
     alt: "placeholder image 1"
-
-toc_icon: "cogs"
 ---
 
 
