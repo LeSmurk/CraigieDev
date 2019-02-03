@@ -10,8 +10,6 @@ header:
   # cta_url: "https://github.com/mmistakes/minimal-mistakes/"
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "My Work."
-intro: 
-  - excerpt: 'Here are some of my more recent projects that are currently being developed.'
 
 feature_rowFeditor:
   - image_path: /assets/Feditor/MainCapsuleImage.png
@@ -40,8 +38,7 @@ feature_rowVox:
 
 
     
-intro1: 
-  - excerpt: 'Here are some of the completed projects that I have been involved in.'
+
   
 feature_rowAR:
   - image_path: /assets/UniWork/PlumbAR.png
@@ -103,7 +100,10 @@ feature_rowGBA:
     
 ---
 
-{% include feature_row id="intro" type="center" %}
+ *Most of the projects have an 'Example Code' button, which is a Github repository with some of the scripts created for them.*
+[Example Scripts]({{"https://github.com/LeSmurk/ExampleCode"}}){: .btn .btn--primary .btn--large}
+
+**Some of my bigger, recent projects being developed**
 
 {% include feature_row id="feature_rowFeditor" type="center" %}
 
@@ -112,7 +112,7 @@ feature_rowGBA:
 {% include feature_row id="feature_rowVox" type="center" %}
 
 
-{% include feature_row id="intro1" type="center" %}
+**Some of my smaller completed projects.**
 
 {% include feature_row id="feature_rowAR" type="left" %}
 
