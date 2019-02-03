@@ -101,9 +101,12 @@ feature_rowGBA:
 ---
 
  *Most of the projects have an 'Example Code' button, which is a Github repository with some of the scripts created for them.*
+ {: .text-center}
 [Example Scripts]({{"https://github.com/LeSmurk/ExampleCode"}}){: .btn .btn--primary .btn--large}
+{: .text-center}
 
 **Some of my bigger, recent projects being developed**
+{: .text-center}
 
 {% include feature_row id="feature_rowFeditor" type="center" %}
 
@@ -113,6 +116,7 @@ feature_rowGBA:
 
 
 **Some of my smaller completed projects.**
+{: .text-center}
 
 {% include feature_row id="feature_rowAR" type="left" %}
 
