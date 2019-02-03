@@ -10,3 +10,9 @@ The principle of the game is to use the markers to move pipes within the augment
 The project was made in C++, using the Sony Playstation Vita development kits.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cJRQNncv-Kw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Below is a UML diagram and a mina game loop overview diagram
+
+![UML Image]({{ "/assets/UniWork/Diagrams/PlumbARGameLogic.JPG" | relative_url }})
+
+![UML Image]({{ "/assets/UniWork/Diagrams/PlumbARUMLDiagram.JPG" | relative_url }})
