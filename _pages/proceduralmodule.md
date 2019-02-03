@@ -44,7 +44,7 @@ I then developed a more complex type of terrian, using the Diamond-Square algori
 
 {% include gallery id="gallery" %}
 
-Here are a couple of snippets of the Diamond Square
+Here are a couple of snippets of the Diamond Square code
 
 {% include gallery id="gallery1" %}
 {% include gallery id="gallerySnipDS1" %}
@@ -53,6 +53,6 @@ Finally I used cellular automata to produce the final terrain type, which was my
 
 ![Cellular Automata]({{ "/assets/UniWork/CellularSmoother.PNG" | relative_url }})
 
-Here are a couple of snippets of the Cellular Automata
+Here are a couple of snippets of the Cellular Automata code
 
 {% include gallery id="gallerySnipCA" %}
