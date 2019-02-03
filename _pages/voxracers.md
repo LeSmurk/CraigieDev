@@ -5,6 +5,8 @@ permalink: /pages/voxracers
 
 *A voxel racing game created at the 2018 global game jam, started with 2 other members.*
 
+[Example Scripts]({{"https://github.com/LeSmurk/ExampleCode/tree/master/VoxRacers"}}){: .btn .btn--primary .btn--large}
+
 ![vox]({{ "/assets/Voxracers/voxSplash.jpg" | relative_url }})
 
 This project is currently still in development, and will be properly released sometime in the future.
