@@ -1,6 +1,13 @@
 ---
 title: "Augmented Reality on the PSVita"
 permalink: /pages/ar-vita
+gallery:
+  - url: /assets/UniWork/Diagrams/PlumbARGameLogic.JPG
+    image_path: /assets/UniWork/Diagrams/PlumbARGameLogic.JPG
+    alt: "placeholder image 0"
+  - url: /assets/UniWork/Diagrams/PlumbARUMLDiagram.JPG
+    image_path: /assets/UniWork/Diagrams/PlumbARUMLDiagram.JPG
+    alt: "placeholder image 1"    
 ---
 
 *PlumbAR was a game created for the PSVita as part of an Applied Games Technology module during my 4th year at university.*
@@ -11,8 +18,6 @@ The project was made in C++, using the Sony Playstation Vita development kits.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cJRQNncv-Kw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Below is a UML diagram and a mina game loop overview diagram
+Below is a UML diagram and a main game loop overview diagram
 
-![UML Image]({{ "/assets/UniWork/Diagrams/PlumbARGameLogic.JPG" | relative_url }})
-
-![UML Image]({{ "/assets/UniWork/Diagrams/PlumbARUMLDiagram.JPG" | relative_url }})
+{% include gallery %}
