@@ -10,19 +10,19 @@ galleryDS:
   - image_path: /assets/UniWork/DiamondSquareSand.PNG
     alt: "placeholder image 2"
 gallerySnipDS:
-  - image_path: /assets/Code Snips/DiaSquCodeLoop.PNG
+  - image_path: /assets/CodeSnips/DiaSquCodeLoop.PNG
     alt: "placeholder image 0"
-  - image_path: /assets/Code Snips/DiaStepCode.PNG
+  - image_path: /assets/CodeSnips/DiaStepCode.PNG
     alt: "placeholder image 1" 
 gallerySnipDS1:
-  - image_path: /assets/Code Snips/RandomStep.PNG
+  - image_path: /assets/CodeSnips/RandomStep.PNG
     alt: "placeholder image 0"
-  - image_path: /assets/Code Snips/SquStepCode.PNG
+  - image_path: /assets/CodeSnips/SquStepCode.PNG
     alt: "placeholder image 1"  
 gallerySnipCA:
-  - image_path: /assets/Code Snips/CellularCodeRule1.PNG
+  - image_path: /assets/CodeSnips/CellularCodeRule1.PNG
     alt: "placeholder image 0"
-  - image_path: /assets/Code Snips/CellularCodeRule2.PNG
+  - image_path: /assets/CodeSnips/CellularCodeRule2.PNG
     alt: "placeholder image 1"
 ---
 *3rd year procedural generation module within Directx11*
