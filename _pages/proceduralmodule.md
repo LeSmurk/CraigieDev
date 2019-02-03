@@ -18,6 +18,12 @@ gallerySnipDS:
   - url: /assets/Code Snips/ProcGen/DiaStepCode.PNG
     image_path: /assets/Code Snips/ProcGen/DiaStepCode.PNG
     alt: "placeholder image 1" 
+  - url: /assets/Code Snips/ProcGen/RandomStep.PNG
+    image_path: /assets/Code Snips/ProcGen/RandomStep.PNG
+    alt: "placeholder image 0"
+  - url: /assets/Code Snips/ProcGen/SquStepCode.PNG
+    image_path: /assets/Code Snips/ProcGen/SquStepCode.PNG
+    alt: "placeholder image 1"  
 gallerySnipDS1:
   - url: /assets/Code Snips/ProcGen/RandomStep.PNG
     image_path: /assets/Code Snips/ProcGen/RandomStep.PNG
@@ -56,9 +62,3 @@ Finally I used cellular automata to produce the final terrain type, which was my
 Here are a couple of snippets of the Cellular Automata
 
 {% include gallery id="gallerySnipCA" %}
-
-
-![DiaSqu]({{ "/assets/UniWork/DiamondSquareImproved.PNG" | relative_url }})
-![DiaSqu]({{ "/assets/UniWork/DiamondSquareRegularHills2.PNG" | relative_url }})
-![DiaSqu]({{ "/assets/UniWork/DiamondSquareSand.PNG" | relative_url }})
-
