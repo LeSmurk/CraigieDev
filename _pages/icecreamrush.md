@@ -5,6 +5,8 @@ permalink: /pages/icecreamrush
 
 *Ice Cream Rush was a game created for the PSVita as part of a game architectures module during my 2nd year at university.*
 
+[Example Scripts]({{"https://github.com/LeSmurk/ExampleCode/tree/master/IceCreamRush"}}){: .btn .btn--primary .btn--large}
+
 Using Box2D and a basic PSVita framework, I created this fast serving ice-cream game with C++, to make use of both the Vita's joysticks and touch screen controls.
 
 ![Ice cream splash screen]({{ "/assets/UniWork/IceCreamRushSplash.JPG" | relative_url }})
