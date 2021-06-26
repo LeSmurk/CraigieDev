@@ -12,7 +12,7 @@ header:
 excerpt: "My Work."
 
 feature_rowDivision2:
-  - image_path: /assets/Feditor/MainCapsuleImage.png
+  - image_path: /assets/Division2CoverImage.jpg
     alt: "placeholder image 1"
     title: "The Division 2"
     excerpt: '[Industry] My first contribution to a released AAA title.'
@@ -20,7 +20,7 @@ feature_rowDivision2:
     btn_label: "The Division 2"
     btn_class: "btn--primary"
 feature_rowUnnanounced0:
-  - image_path: /assets/Feditor/MainCapsuleImage.png
+  - image_path: /assets/RedactedImage.jpg
     alt: "placeholder image 1"
     title: "Unnanounced Title"
     excerpt: '[Industry] Current Work on an unnanounced AAA title.'
