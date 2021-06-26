@@ -17,7 +17,5 @@ A full gameplay video of the track made can be found here:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/whI2TQzA-aQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-For more information about the project as a whole, check out the website on [Voxracers.net]({{"https://voxracers.net/"}}){: .btn .btn--success .btn--medium}
-
 ![vox 1]({{ "/assets/Voxracers/voxFirstPerson.png" | relative_url }})
 ![vox 2]({{ "/assets/Voxracers/endlessRunnerFire.gif" | relative_url }})
