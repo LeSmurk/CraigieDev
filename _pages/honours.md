@@ -7,7 +7,7 @@ permalink: /pages/honours
 
 [Example Scripts]({{"https://github.com/LeSmurk/ExampleCode/tree/master/SoftBodiesHons"}}){: .btn .btn--primary .btn--large}
 
-Using Spring/Mass principles, I am attemping to simulate soft-body physics within a games context and therefore placing a focus on the performance of the simulation within real-time. While I am using the Unity3D engine, I have only used the collision and transform components that come with the engine to create the current Spring/Mass system as I am researching how Entity Component Systems can be used to improve the performance of this soft body system.
+Using Spring/Mass principles, I attempted to simulate soft-body physics within a games context and therefore placing a focus on the performance of the simulation within real-time. While I used the Unity3D engine, I only used the collision and transform components that come with the engine to create the current Spring/Mass system as I then went onto researching how Entity Component Systems could be used to improve the performance of this soft body system.
 
 The video below demonstrates the feasibility of the Sping/Mass system, using a nearest neighbours approach to determine which masses are connected.
 
