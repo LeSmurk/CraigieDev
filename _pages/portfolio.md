@@ -50,7 +50,7 @@ feature_rowVox:
   - image_path: /assets/Voxracers/voxSplash.jpg
     alt: "placeholder image 1"
     title: "Voxracers"
-    excerpt: '[Team] Currently my biggest project creating a voxel-based racing game.'
+    excerpt: '[Team] One of my biggest projects creating a voxel-based racing game.'
     url: "/pages/voxracers"
     btn_label: "Voxracers"
     btn_class: "btn--primary"
