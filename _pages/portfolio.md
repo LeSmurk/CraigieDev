@@ -11,6 +11,25 @@ header:
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "My Work."
 
+feature_rowDivision2:
+  - image_path: /assets/Feditor/MainCapsuleImage.png
+    alt: "placeholder image 1"
+    title: "The Division 2"
+    excerpt: '[Industry] My first contribution to a released AAA title.'
+    url: "/pages/division2"
+    btn_label: "The Division 2"
+    btn_class: "btn--primary"
+feature_rowUnnanounced0:
+  - image_path: /assets/Feditor/MainCapsuleImage.png
+    alt: "placeholder image 1"
+    title: "Unnanounced Title"
+    excerpt: '[Industry] Current Work on an unnanounced AAA title.'
+    url: "/pages/unnanounced0"
+    btn_label: "Unnanounced"
+    btn_class: "btn--primary"
+    
+    
+    
 feature_rowFeditor:
   - image_path: /assets/Feditor/MainCapsuleImage.png
     alt: "placeholder image 1"
@@ -100,19 +119,27 @@ feature_rowGBA:
     
 ---
 
- *Most of the projects have an 'Example Code' button, which is a Github repository with some of the scripts created for them.*
+**The projects I have worked on during my time in the games industry**
+{: .text-center}
+
+{% include feature_row id="feature_rowDivision2" type="center" %}
+
+{% include feature_row id="feature_rowUnnanounced0" type="center" %}
+
+
+ *Most of the projects I worked on during university have an 'Example Code' button, which is a Github repository with some of the scripts created for them.*
  {: .text-center}
 [Example Scripts]({{"https://github.com/LeSmurk/ExampleCode"}}){: .btn .btn--primary .btn--large}
 {: .text-center}
 
-**Some of my bigger, recent projects being developed**
+**Some of my bigger project during my time at university**
 {: .text-center}
 
 {% include feature_row id="feature_rowFeditor" type="center" %}
 
-{% include feature_row id="feature_rowHonours" type="center" %}
+{% include feature_row id="feature_rowHonours" type="left" %}
 
-{% include feature_row id="feature_rowVox" type="center" %}
+{% include feature_row id="feature_rowVox" type="right" %}
 
 
 **Some of my smaller completed projects.**
