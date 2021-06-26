@@ -135,9 +135,9 @@ feature_rowGBA:
 **Some of my bigger project during my time at university**
 {: .text-center}
 
-{% include feature_row id="feature_rowFeditor" type="center" %}
+{% include feature_row id="feature_rowHonours" type="right" %}
 
-{% include feature_row id="feature_rowHonours" type="left" %}
+{% include feature_row id="feature_rowFeditor" type="left" %}
 
 {% include feature_row id="feature_rowVox" type="right" %}
 
