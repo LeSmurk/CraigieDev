@@ -122,9 +122,9 @@ feature_rowGBA:
 **The projects I have worked on during my time in the games industry**
 {: .text-center}
 
-{% include feature_row id="feature_rowDivision2" type="center" %}
-
 {% include feature_row id="feature_rowUnnanounced0" type="center" %}
+
+{% include feature_row id="feature_rowDivision2" type="center" %}
 
 
  *Most of the projects I worked on during university have an 'Example Code' button, which is a Github repository with some of the scripts created for them.*
