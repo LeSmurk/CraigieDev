@@ -5,6 +5,8 @@ permalink: /pages/unnanounced0
 
 *My Work as a Gameplay Programmer on an Unnanounced Title*
 
+April 2020 - Present
+
 As this project is still under NDA I cannot discuss specifics about what I have done, however my responsibilities include:
 
 - Creating new Gameplay systems in C++
