@@ -16,6 +16,5 @@ The video below demonstrates the feasibility of the Sping/Mass system, using a n
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e-H2lSZaFJc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Submitted Dissertation Paper:
 <embed src="/assets/UniWork/Mark_Craigie_1500887_Dissertation.pdf" type="application/pdf" />
-
-![embedattempt]({{ "/assets/UniWork/Mark_Craigie_1500887_Dissertation.pdf" | relative_url }})
