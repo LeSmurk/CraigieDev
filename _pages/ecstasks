@@ -1,0 +1,11 @@
+---
+title: "ECS Task Testing"
+permalink: /pages/ecstasks
+---
+
+*Some experiments with making a behaviour tree / FSM in ECS*
+
+- what I wanted to do
+- how the task system works
+- some extra side parts like targeting
+- results
