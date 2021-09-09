@@ -40,13 +40,16 @@ The states
 Idle, Walk, Chase
 
 During Idle, we wait until a target has been found or the timer has ran out.
-If the timer runs out, we do a task transition with the condition in this case entering walk
+If the timer runs out, we do a task transition into walk
 If a target is found, we task transition into chase
 
+During Walk, we pick a random direction to look at and walk in that direction at a set speed.
+We run a timer and if that runs out, we do a task transition back to idle.
+If a target is found, we task transition into chase.
 
-During Walk
-
-During Chase
+During Chase, we run in the look direction, which will be towards the direction where the target was viewed due to the TargetSystem.
+We run a timer and if that runs out, we do a task transition to idle.
+We also check if the ViewTargetComponent is on this entity and task transition to idle early if the target is lost.
 
 
 TargetSystem
@@ -61,4 +64,6 @@ but this test doesn't have any of those in the scene.
 
 When a target is found, we adjust the look direction inside of the LookDirComponent so it is looking directly at the target
 add a ViewTargetComponent onto the entity that is doing the searching and pass it the entity ID of the target it views.
-During this update we can also CHECK STILL IN VIEW if not remove
+During this update we can also check every entity with a ViewTargetComponent and a LookDirComponent to see if the
+target specific is still in view. If not, we remove the ViewTargetComponent.
+We also remove the ViewTargetComponent if the target is very close to this entity and flip the look direction just so that we're not locked into staring at the target as we don't do anything else when we get this close.
