@@ -10,28 +10,19 @@ My aim was to create a behaviour tree system where a tree could be defined and a
 
 
 
-## TaskListComponent ##
+## TaskTreeComponent ##
 We define a tree, like we would any other behaviour tree system.
-In this one I have created 3 nodes, each with a different state and use Conditions to determine
-which node we move to after the current one.
+In this one I have created 3 nodes, each with a different state and use Conditions to determine which node we move to after the current one.
 
 This tree is held within the TaskListComponent, which knows about the tree and which current TaskNode the entity is on.
 
 ## TaskTransitionComponent ##
 We use this as our method of determining when a task is finished.
-The task system goes through every entity with a TaskListComponent and a TaskTransitionComponent,
-using the condition passed to the transition component to determine which node to move to next in the tree held by
-the list component. It then adds that new component type to the entity and removes the TaskTransitionComponent.
-More info could be given to the task transition component and then that could be given to the new component
+The task system goes through every entity with a TaskListComponent and a TaskTransitionComponent, using the condition passed to the transition component to determine which node to move to next in the tree held by the list component. It then adds that new component type to the entity and removes the TaskTransitionComponent. More info could be given to the task transition component and then that could be given to the new component
 when it is added but I found that for this test it wasn't needed.
 
-Previously I had this doing an "any_of" check that would see if any of the Task type components were on the entity
-but found a dedicated task transition component to be the easiest. It allows allows for more functionality as we could
-implement more features into the transition to make it slower between transitions etc.
-If we wanted multiple tasks to run at once we would have to be careful with this approach however,
-my assumption would be that either the TaskListComponent could have multiple runningTasks it knows about and the transition
-component would have to take into account which "stream" of task it is on or we would have sub-entites
-that would handle the multiple running tasks.
+Previously I had this doing an "any_of" check that would see if any of the Task type components were on the entity but found a dedicated task transition component to be the easiest. It allows allows for more functionality as we could implement more features into the transition to make it slower between transitions etc.
+If we wanted multiple tasks to run at once we would have to be careful with this approach however, my assumption would be that either the TaskListComponent could have multiple runningTasks it knows about and the transition component would have to take into account which "stream" of task it is on or we would have sub-entites that would handle the multiple running tasks.
 
 
 ## The states ##
@@ -54,17 +45,12 @@ We also check if the ViewTargetComponent is on this entity and task transition t
 
 
 ## TargetSystem ##
-The target system was done independently from the states but could be anything really,
-it could be unique to the states or completely separate, like in this example.
+The target system was done independently from the states but could be anything really, it could be unique to the states or completely separate, like in this example.
 There is a LookirComponent that defines where the current entity is looking as well as its view distance and angle
 During the target system update we use this along with the STransformComponent to find all entities within its view
 
-Here we could add an extra component to define components we actually want to target (like players)
-and not just everything with a TransformComponent (like another NPC or a random static object)
-but this test doesn't have any of those in the scene.
+Here we could add an extra component to define components we actually want to target (like players) and not just everything with a TransformComponent (like another NPC or a random static object) but this test doesn't have any of those in the scene.
 
-When a target is found, we adjust the look direction inside of the LookDirComponent so it is looking directly at the target
-add a ViewTargetComponent onto the entity that is doing the searching and pass it the entity ID of the target it views.
-During this update we can also check every entity with a ViewTargetComponent and a LookDirComponent to see if the
-target specific is still in view. If not, we remove the ViewTargetComponent.
+When a target is found, we adjust the look direction inside of the LookDirComponent so it is looking directly at the target add a ViewTargetComponent onto the entity that is doing the searching and pass it the entity ID of the target it views.
+During this update we can also check every entity with a ViewTargetComponent and a LookDirComponent to see if the target specific is still in view. If not, we remove the ViewTargetComponent.
 We also remove the ViewTargetComponent if the target is very close to this entity and flip the look direction just so that we're not locked into staring at the target as we don't do anything else when we get this close.
