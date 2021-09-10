@@ -10,14 +10,14 @@ My aim was to create a behaviour tree system where a tree could be defined and a
 
 
 
-TaskListComponent
+## TaskListComponent ##
 We define a tree, like we would any other behaviour tree system.
 In this one I have created 3 nodes, each with a different state and use Conditions to determine
 which node we move to after the current one.
 
 This tree is held within the TaskListComponent, which knows about the tree and which current TaskNode the entity is on.
 
-TaskTransitionComponent
+## TaskTransitionComponent ##
 We use this as our method of determining when a task is finished.
 The task system goes through every entity with a TaskListComponent and a TaskTransitionComponent,
 using the condition passed to the transition component to determine which node to move to next in the tree held by
@@ -34,23 +34,26 @@ component would have to take into account which "stream" of task it is on or we 
 that would handle the multiple running tasks.
 
 
-The states
+## The states ##
 Idle, Walk, Chase
 
+### Idle ###
 During Idle, we wait until a target has been found or the timer has ran out.
 If the timer runs out, we do a task transition into walk
 If a target is found, we task transition into chase
 
+### Walk ###
 During Walk, we pick a random direction to look at and walk in that direction at a set speed.
 We run a timer and if that runs out, we do a task transition back to idle.
 If a target is found, we task transition into chase.
 
+### Chase ###
 During Chase, we run in the look direction, which will be towards the direction where the target was viewed due to the TargetSystem.
 We run a timer and if that runs out, we do a task transition to idle.
 We also check if the ViewTargetComponent is on this entity and task transition to idle early if the target is lost.
 
 
-TargetSystem
+## TargetSystem ##
 The target system was done independently from the states but could be anything really,
 it could be unique to the states or completely separate, like in this example.
 There is a LookirComponent that defines where the current entity is looking as well as its view distance and angle
