@@ -32,7 +32,7 @@ feature_rowUnnanounced0:
     
     
 feature_rowECSTask:
-  - image_path: /assets/Division2CoverImage.jpg
+  - image_path: /assets/stockKeyboard.jpg
     alt: "placeholder image 1"
     title: "ECS Task System"
     excerpt: '[Personal] A test on how to make a behaviour tree / task system in ECS.'
