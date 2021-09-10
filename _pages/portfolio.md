@@ -30,6 +30,18 @@ feature_rowUnnanounced0:
     
     
     
+    
+feature_roweECSTask:
+  - image_path: /assets/Division2CoverImage.jpg
+    alt: "placeholder image 1"
+    title: "ECS Task System"
+    excerpt: '[Personal] A test on how to make a behaviour tree / task system in ECS.'
+    url: "/pages/ecstasks"
+    btn_label: "ECS Task System"
+    btn_class: "btn--primary"
+    
+    
+    
 feature_rowFeditor:
   - image_path: /assets/Feditor/MainCapsuleImage.png
     alt: "placeholder image 1"
@@ -127,12 +139,21 @@ feature_rowGBA:
 {% include feature_row id="feature_rowDivision2" type="center" %}
 
 
+
+**Some side projects I have worked on outside of work**
+{: .text-center}
+
+{% include feature_row id="feature_rowECSTask" type="left" %}
+
+
+
+
+**Some of my bigger project during my time at university**
+{: .text-center}
+
  *Most of the projects I worked on during university have an 'Example Code' button, which is a Github repository with some of the scripts created for them.*
  {: .text-center}
 [Example Scripts]({{"https://github.com/LeSmurk/ExampleCode"}}){: .btn .btn--primary .btn--large}
-{: .text-center}
-
-**Some of my bigger project during my time at university**
 {: .text-center}
 
 {% include feature_row id="feature_rowHonours" type="right" %}
