@@ -36,7 +36,7 @@ Idle, Walk, Chase
 ### Idle ###
 During Idle, we wait until a target has been found or the timer has ran out.
 If the timer runs out, we do a task transition into walk
-If a target is found, we task transition into chase
+If a target is found, we task transition into chase.
 ![IdleSystem]({{ "/assets/ECSTasks/IdleSystem.png" | relative_url }})
 
 ### Walk ###
@@ -54,8 +54,8 @@ We also check if the ViewTargetComponent is on this entity and task transition t
 
 ## TargetSystem ##
 The target system was done independently from the states but could be anything really, it could be unique to the states or completely separate, like in this example.
-There is a LookirComponent that defines where the current entity is looking as well as its view distance and angle
-During the target system update we use this along with the STransformComponent to find all entities within its view
+There is a LookDirComponent that defines where the current entity is looking as well as its view distance and angle.
+During the target system update we use this along with the STransformComponent to find all entities within its view.
 
 ![TargetComponents]({{ "/assets/ECSTasks/TargetComponents.png" | relative_url }})
 
