@@ -24,6 +24,7 @@ The task system goes through every entity with a TaskTreeComponent and a TaskTra
 _More info could be given to the task transition component and then that could be given to the new component when it is added but I found that for this test it wasn't needed._
 
 Previously I had this doing an "any_of" check that would see if any of the Task type components were on the entity but found a dedicated task transition component to be the easiest. It allows allows for more functionality as we could implement more features into the transition to make it slower between transitions etc.
+
 _If we wanted multiple tasks to run at once we would have to be careful with this approach however, my assumption would be that either the TaskTreeComponent could have multiple runningTasks it knows about and the transition component would have to take into account which "stream" of task it is on or we would have sub-entites that would handle the multiple running tasks._
 
 ![TaskSystem]({{ "/assets/ECSTasks/TaskSystem.png" | relative_url }})
