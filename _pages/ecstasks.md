@@ -8,7 +8,9 @@ permalink: /pages/ecstasks
 I wanted to create something in ECS (using enTT) that normally would be better suited to OOP methods and see how it would be implemented using ECS.
 My aim was to create a behaviour tree system where a tree could be defined and all the behaviours and state changing was done using the Entity Component System model in order to better understand the limitations and implementation details of an ECS structure instead of an OOP one.
 
+A simple demo can be seen here:
 
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/ysepPS2qPec" title="ECS Task Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## TaskTreeComponent ##
 We define a tree, like we would any other behaviour tree system.
