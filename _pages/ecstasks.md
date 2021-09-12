@@ -23,6 +23,7 @@ This tree is held within the TaskTreeComponent, which knows about the tree and w
 ## TaskTransitionComponent ##
 We use this as our method of determining when a task is finished.
 The task system goes through every entity with a TaskTreeComponent and a TaskTransitionComponent, using the condition passed to the transition component to determine which node to move to next in the tree held by the tree component. It then adds that new component type to the entity and removes the TaskTransitionComponent.
+
 _More info could be given to the task transition component and then that could be given to the new component when it is added but I found that for this test it wasn't needed._
 
 Previously I had this doing an "any_of" check that would see if any of the Task type components were on the entity but found a dedicated task transition component to be the easiest. It allows allows for more functionality as we could implement more features into the transition to make it slower between transitions etc.
