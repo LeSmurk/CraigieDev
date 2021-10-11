@@ -12,8 +12,16 @@ My aim was to create a behaviour tree system where a tree could be defined and a
 
 A simple demo can be seen here:
 
+## Behaviour Tree Definition ##
+In order for this to function well with ECS, I made some modifications to what is the classic behaviour tree.
 
 
+## TaskTreeComponent ##
+This holds onto the current node that the entity is on
+
+## TaskTransitionComponent ##
+We use this as our method of determining when a task is finished.
+The task system goes through every entity with a TaskTreeComponent and a TaskTransitionComponent, using the condition passed to the transition component to determine which node to move to next in the tree held by the tree component. It then adds that new component type to the entity and removes the TaskTransitionComponent.
 
 # Finite State Machine #
 This was developed first as a simpler approach to the behaviour tree but works in a similar fashion.
@@ -31,10 +39,9 @@ This tree is held within the TaskTreeComponent, which knows about the tree and w
 ![TaskComponents]({{ "/assets/ECSTasks/TaskComponents.png" | relative_url }})
 
 ## TaskTransitionComponent ##
-We use this as our method of determining when a task is finished.
-The task system goes through every entity with a TaskTreeComponent and a TaskTransitionComponent, using the condition passed to the transition component to determine which node to move to next in the tree held by the tree component. It then adds that new component type to the entity and removes the TaskTransitionComponent.
+This is the same as the behaviour tree implementation, it helps us to determine when a task is finished.
 
-_More info could be given to the task transition component and then that could be given to the new component when it is added but I found that for this test it wasn't needed._
+_More info could be given to the task transition component and then that could be given to the new component when it is added (like the behaviour tree does) but I found that for this FSM test it wasn't needed._
 
 Previously I had this doing an "any_of" check that would see if any of the Task type components were on the entity but found a dedicated task transition component to be the easiest. It allows allows for more functionality as we could implement more features into the transition to make it slower between transitions etc.
 
