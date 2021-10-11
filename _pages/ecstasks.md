@@ -33,6 +33,7 @@ _I am currently working on a version that allows for asynchronous operations on 
 This holds onto the current node that the entity is on and uses this to evaluate what node to move to next, based on the condition of its exit, once it is transitioning out of its current state.
 
 ![TaskComponents]({{ "/assets/ECSTasks/BehaviourTaskComponent.png" | relative_url }})
+
 ![TaskSystem]({{ "/assets/ECSTasks/BehaviourTaskSystem.png" | relative_url }})
 
 ## TaskTransitionComponent ##
