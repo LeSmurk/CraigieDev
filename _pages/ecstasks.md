@@ -12,16 +12,41 @@ My aim was to create a behaviour tree system where a tree could be defined and a
 
 A simple demo can be seen here:
 
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/r6j57a73wGg" title="ECS Behaviour Tree Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Behaviour Tree Definition ##
 In order for this to function well with ECS, I made some modifications to what is the classic behaviour tree.
+The step in the behaviour tree only changes when the running behaviour finishes, which then queries the tree to evaluate which node is next.
+Each node has a "Runtime" and a "Blueprint". The runtime exists only when we need it, containing all current state data and points to the blueprint version of the node.
+The root node is started up as a runtime, it then evaluates its next node and starts a runtime of it, this then continues almost like a linked list until a leaf node is reached.
+Once we have a leaf node, we read its behaviour and pass this to the TaskTreeComponent to hold onto.
 
+_NOTE: This means that our evaluating of where we are on the tree is more OOP-like but if we turned this into pure ECS then we would take N frames to evaluate the next leaf node behaviour for N steps from the root. The rest of the behaviour systems (the bulk of our time) do run properly using ECS however._
+
+Once a runtime node is finished its operations and returns back to its parent, it clears up its children runtime nodes.
+
+![SelectorNode]({{ "/assets/ECSTasks/BehaviourSelector.png" | relative_url }})
+
+_I am currently working on a version that allows for asynchronous operations on the tree to make the behaviour tree function more like a classic behaviour tree, as this method currently waits on a behaviour to fully finish before being able to do another. This approach will be using sub-entites to run nested trees._
 
 ## TaskTreeComponent ##
-This holds onto the current node that the entity is on
+This holds onto the current node that the entity is on and uses this to evaluate what node to move to next, based on the condition of its exit, once it is transitioning out of its current state.
+
+![TaskComponents]({{ "/assets/ECSTasks/BehaviourTaskComponent.png" | relative_url }})
+![TaskSystem]({{ "/assets/ECSTasks/BehaviourTaskSystem.png" | relative_url }})
 
 ## TaskTransitionComponent ##
 We use this as our method of determining when a task is finished.
 The task system goes through every entity with a TaskTreeComponent and a TaskTransitionComponent, using the condition passed to the transition component to determine which node to move to next in the tree held by the tree component. It then adds that new component type to the entity and removes the TaskTransitionComponent.
+
+## Go To Behaviour ##
+Here is an example of one of the behaviours, which simply goes to a specified position. If no position is given, it picks a random one.
+This position is passed to the GoTo component by the node through the AdditionalData that can be set for any node and given during the component's creation.
+_My intention is to modify this to do a blackboard lookup for the position rather than a hard...dataed? (one time data-defined) value._
+
+This goto system returns a success if it can get to the position in time and a failure if it can't.
+![GotoSystem]({{ "/assets/ECSTasks/GotoBehaviour.png" | relative_url }})
+
 
 # Finite State Machine #
 This was developed first as a simpler approach to the behaviour tree but works in a similar fashion.
