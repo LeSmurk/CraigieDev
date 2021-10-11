@@ -48,6 +48,11 @@ _My intention is to modify this to do a blackboard lookup for the position rathe
 This goto system returns a success if it can get to the position in time and a failure if it can't.
 ![GotoSystem]({{ "/assets/ECSTasks/GotoBehaviour.png" | relative_url }})
 
+If you have any thoughts or questions about this behaviour tree in ECS please feel free to contact me.
+
+
+
+This FSM version is very similar but I thought I'd leave it as it is a little simpler and I covered it in a bit more detail but has a bit of duplicate info.
 
 # Finite State Machine #
 This was developed first as a simpler approach to the behaviour tree but works in a similar fashion.
@@ -57,7 +62,7 @@ A simple demo can be seen here:
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/ysepPS2qPec" title="ECS Task Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## TaskTreeComponent ##
-We define a tree, like we would any FSM system.
+This is the same as the behaviour tree implementation, we define a tree, like we would any FSM system.
 In this one I have created 3 nodes, each with a different state and use Conditions to determine which node we move to after the current one.
 
 This tree is held within the TaskTreeComponent, which knows about the tree and which current TaskNode the entity is on.
