@@ -34,10 +34,10 @@ feature_rowUnnanounced0:
 feature_rowECSTask:
   - image_path: /assets/stockKeyboard.jpg
     alt: "placeholder image 1"
-    title: "ECS Task System"
-    excerpt: '[Personal] A test on how to make a behaviour tree / task system in ECS.'
+    title: "ECS Behaviour Tree / FSM"
+    excerpt: '[Personal] A personal project test on how to make a behaviour tree / FSM system in ECS.'
     url: "/pages/ecstasks"
-    btn_label: "ECS Task System"
+    btn_label: "ECS Behaviour Tree"
     btn_class: "btn--primary"
     
     
