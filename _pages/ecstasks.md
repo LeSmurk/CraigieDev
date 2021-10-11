@@ -48,11 +48,11 @@ _My intention is to modify this to do a blackboard lookup for the position rathe
 This goto system returns a success if it can get to the position in time and a failure if it can't.
 ![GotoSystem]({{ "/assets/ECSTasks/GotoBehaviour.png" | relative_url }})
 
-If you have any thoughts or questions about this behaviour tree in ECS please feel free to contact me.
+**If you have any thoughts or questions about this behaviour tree in ECS please feel free to contact me.**
 
+------------------------------------------------------------------------------------------------------
 
-
-This FSM version is very similar but I thought I'd leave it as it is a little simpler and I covered it in a bit more detail but has a bit of duplicate info.
+_**This FSM version is very similar but I thought I'd leave it as it is a little simpler and I covered it in a bit more detail but has a bit of duplicate info.**_
 
 # Finite State Machine #
 This was developed first as a simpler approach to the behaviour tree but works in a similar fashion.
