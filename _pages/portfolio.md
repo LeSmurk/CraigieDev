@@ -11,6 +11,24 @@ header:
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "My Work."
 
+feature_rowIndianaJones:
+  - image_path: /assets/IndianaJones/coverpage.jpg
+    alt: "Indiana Jones and the Great Circle cover art"
+    title: "Indiana Jones and the Great Circle"
+    excerpt: '[Industry] Work on Indiana Jones and the Great Circle.'
+    url: "/pages/indianajonesgreatcircle"
+    btn_label: "Indiana Jones"
+    btn_class: "btn--primary"
+
+
+feature_rowUnnanounced0:
+  - image_path: /assets/RedactedImage.jpg
+    alt: "placeholder image 1"
+    title: "Unnanounced Title"
+    excerpt: '[Industry] Work on an unnanounced AAA title.'
+    url: "/pages/unnanounced0"
+    btn_label: "Unnanounced"
+    btn_class: "btn--primary"
 feature_rowDivision2:
   - image_path: /assets/Division2CoverImage.jpg
     alt: "placeholder image 1"
@@ -19,16 +37,7 @@ feature_rowDivision2:
     url: "/pages/division2"
     btn_label: "The Division 2"
     btn_class: "btn--primary"
-feature_rowUnnanounced0:
-  - image_path: /assets/RedactedImage.jpg
-    alt: "placeholder image 1"
-    title: "Unnanounced Title"
-    excerpt: '[Industry] Current Work on an unnanounced AAA title.'
-    url: "/pages/unnanounced0"
-    btn_label: "Unnanounced"
-    btn_class: "btn--primary"
-    
-    
+
     
     
 feature_rowECSTask:
@@ -131,12 +140,18 @@ feature_rowGBA:
     
 ---
 
-**The projects I have worked on during my time in the games industry**
+**The project I have worked on during my time at MachineGames**
 {: .text-center}
 
-{% include feature_row id="feature_rowUnnanounced0" type="center" %}
+{% include feature_row id="feature_rowIndianaJones" type="centre" %}
 
-{% include feature_row id="feature_rowDivision2" type="center" %}
+
+**The projects I have worked on during my time at Ubisoft**
+{: .text-center}
+
+{% include feature_row id="feature_rowUnnanounced0" type="left" %}
+
+{% include feature_row id="feature_rowDivision2" type="right" %}
 
 
 
