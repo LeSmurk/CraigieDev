@@ -143,7 +143,7 @@ feature_rowGBA:
 **The project I have worked on during my time at MachineGames**
 {: .text-center}
 
-{% include feature_row id="feature_rowIndianaJones" type="centre" %}
+{% include feature_row id="feature_rowIndianaJones" type="center" %}
 
 
 **The projects I have worked on during my time at Ubisoft**
