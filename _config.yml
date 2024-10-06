@@ -98,7 +98,7 @@ analytics:
 # Site Author
 author:
   name             : "Mark Craigie"
-  avatar           : "assets/maface.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "assets/me2022.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Gameplay Programmer at 'Ubisoft Reflections'."
   location         : "Uppsala, Sweden"
   email            :
