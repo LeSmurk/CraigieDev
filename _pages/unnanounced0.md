@@ -5,7 +5,7 @@ permalink: /pages/unnanounced0
 
 *My Work as a Gameplay Programmer on an Unnanounced Title at Ubisoft Reflections*
 
-April 2020 - Present
+April 2020 - March 2022
 
 As this project is still under NDA I cannot discuss specifics about what I have done, however my responsibilities include:
 
