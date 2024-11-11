@@ -17,6 +17,8 @@ A simple demo can be seen here:
 ## Behaviour Tree Definition ##
 In order for this to function well with ECS, I made some modifications to what is the classic behaviour tree.
 The step in the behaviour tree only changes when the running behaviour finishes, which then queries the tree to evaluate which node is next.
+This makes it somewhat between an FSM and behaviour tree, because I couldn't quite decide what approach I wanted, so ended up with a bit of both.
+
 Each node has a "Runtime" and a "Blueprint". The runtime exists only when we need it, containing all current state data and points to the blueprint version of the node.
 The root node is started up as a runtime, it then evaluates its next node and starts a runtime of it, this then continues almost like a linked list until a leaf node is reached.
 Once we have a leaf node, we read its behaviour and pass this to the TaskTreeComponent to hold onto.
