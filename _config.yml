@@ -99,7 +99,7 @@ analytics:
 author:
   name             : "Mark Craigie"
   avatar           : "assets/Me2022.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Gameplay Programmer."
+  bio              : "Gameplay Programmer"
   location         : "Edinburgh, Scotland"
   email            : "mark@andlaur.com"
   uri              :
