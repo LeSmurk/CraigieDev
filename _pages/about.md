@@ -11,7 +11,7 @@ After high-school, I moved from Edinburgh to Dundee to begin my studies at Abert
 Other purely objective facts about me:
 - Efficent communicator: I really enjoy and value working as part of a multi-disciplinary team
 - Adaptable: I have worked on numerious game engines and projects with different styles and demands
-- Strong programmer: Ontop of my 4 years of studying, I have been programming in C++ for 5.5 years professionally
+- Strong programmer: Ontop of my 4 years of studying, I have been programming in C++ for 6.5 years professionally
 - Eye for design: A passion for video games has made me enjoy the creative side of gameplay programming, identifying and tackling problems however they arise.
 
 For my more in-depth CV please reach out.
